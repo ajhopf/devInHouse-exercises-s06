@@ -10,7 +10,7 @@ const procuraIdadeMediaNoBrasil = async nome => {
       nomeEmLowerCase[0].toUpperCase() + nomeEmLowerCase.slice(1);
 
     console.log(
-      `A idade média no Brasil das pessoas com o nome de ${nomeCapitalized} é de ${resultado.age}`
+      `A idade média no Brasil das pessoas com o nome de ${nomeCapitalized} é de ${resultado.age} anos.`
     );
   } catch (error) {
     console.log(error);
