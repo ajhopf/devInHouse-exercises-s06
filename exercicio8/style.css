@@ -1,0 +1,68 @@
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+form div {
+  margin: 1rem;
+}
+button[type='submit'] {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.listWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#userList {
+  list-style: none;
+}
+
+#userList li {
+  display: flex;
+  margin-top: 10px;
+  width:75vw;
+}
+
+.listImage {
+  align-items: center;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(79, 150, 103) 50%);
+  display: flex;
+}
+
+.listImage img {
+  border-radius: 50%;
+}
+
+.listText {
+  background-color: rgb(79, 150, 103);
+  border-radius: 0 10px 10px 0;
+  color: black;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+.listText h2 {
+  margin: 0.5rem 0;
+}
+
+.listText p {
+  font-size: 1.125rem;
+  margin: 0.5rem 0;
+}
